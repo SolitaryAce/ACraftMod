@@ -172,7 +172,15 @@ dependencies {
 
     implementation fg.deobf("curse.maven:adams-ars-plus-1011093:7461849")
 
+    implementation fg.deobf("curse.maven:combat-dash-1094568:6866853")
+
     implementation fg.deobf("vazkii.patchouli:Patchouli:${mc_version}-${patchouli_version}-FORGE")
+
+    runtimeOnly fg.deobf("curse.maven:playeranimator-658587:4587214")
+
+    implementation fg.deobf("curse.maven:lendercataclysm-551586:8246047")
+
+    implementation fg.deobf("curse.maven:lionfish-api-1001614:8095554")
 
     // Example mod dependency with JEI - using fg.deobf() ensures the dependency is remapped to your development mappings
     // The JEI API is declared for compile time use, while the full JEI artifact is used at runtime

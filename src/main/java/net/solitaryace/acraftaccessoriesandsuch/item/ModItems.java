@@ -16,6 +16,10 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> TESTCURIO = ITEMS.register("testcurio",
             TestCurio::new);
+    public static final RegistryObject<Item> HEAVENLYRESTRICTIONCURIO = ITEMS.register("heavenlyrestrictioncurio",
+            HeavenlyRestrictionCurio::new);
+    public static final RegistryObject<Item> MORPHRELICCURIO = ITEMS.register("morphreliccurio",
+            MorphRelicCurio::new);
 
 
     public static void register(IEventBus eventBus) {

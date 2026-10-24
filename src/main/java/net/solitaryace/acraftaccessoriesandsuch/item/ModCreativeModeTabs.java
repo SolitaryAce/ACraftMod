@@ -19,6 +19,8 @@ public class ModCreativeModeTabs {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.TESTITEM.get());
                         pOutput.accept(ModItems.TESTCURIO.get());
+                        pOutput.accept(ModItems.HEAVENLYRESTRICTIONCURIO.get());
+                        pOutput.accept(ModItems.MORPHRELICCURIO.get());
                     })
                     .build());
 

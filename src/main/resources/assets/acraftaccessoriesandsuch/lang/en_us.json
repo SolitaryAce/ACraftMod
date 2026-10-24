@@ -1,6 +1,10 @@
 {
   "item.acraftaccessoriesandsuch.testitem": "Test Item",
   "item.acraftaccessoriesandsuch.testcurio": "Test Curio",
+  "item.acraftaccessoriesandsuch.heavenlyrestrictioncurio": "Mechanical Mana Accumulator",
+  "item.acraftaccessoriesandsuch.morphreliccurio": "Versatile Morphing Relic",
+
+  "tooltip.acraftaccessoriesandsuch.morphreliccurio": "An unstable amalgam that appears to take the form of anything it is placed on.",
 
   "creativetab.test_tab": "ACraft Testing Tab"
 }
